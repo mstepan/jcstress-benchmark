@@ -15,7 +15,7 @@ Template generated with maven archetype using:
 ```
 Maven wrapper added with:
 ```
-mvn -N wrapper:wrapper -Dmaven=3.6.3
+mvn -N wrapper:wrapper -Dmaven=3.8.6
 ```
 
 Local java version added using `jenv`:
