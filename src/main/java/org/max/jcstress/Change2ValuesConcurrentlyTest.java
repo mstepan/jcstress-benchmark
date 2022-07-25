@@ -42,8 +42,8 @@ import org.openjdk.jcstress.infra.results.II_Result;
 
 /**
  * How to run this test:
- * 1. ./mvnw clean package
- * 2. java -jar target/jcstress.jar -t Change2ValuesConcurrentlyTest
+ *      ./mvnw clean package
+ *      java -jar target/jcstress.jar -t Change2ValuesConcurrentlyTest
  */
 @JCStressTest
 @Outcome(id = "2, 2", expect = ACCEPTABLE, desc = "Both x & y were incremented by one properly.")

@@ -20,7 +20,7 @@ mvn -N wrapper:wrapper -Dmaven=3.6.3
 
 Local java version added using `jenv`:
 ```
-    jenv local 1.8
+    jenv local 11
 ```
 
 
