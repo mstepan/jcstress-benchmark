@@ -1,0 +1,13 @@
+.idea
+*.iml
+target
+dependency-reduced-pom.xml
+.DS_Store
+docker/.env
+
+# Ignore files like 'jcstress-results-2022-07-25-15-09-56.bin.gz'
+*.bin.gz
+
+# Ignore folder with results
+results
+
