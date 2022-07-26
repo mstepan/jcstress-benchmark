@@ -1,6 +1,9 @@
 # JCStress playground
 For more detail check [jcstress](https://github.com/openjdk/jcstress)
 
+For very good and pragmatic article related to jcstress usage, 
+check [close-encounters-of-jmm-kind](https://shipilev.net/blog/2016/close-encounters-of-jmm-kind)
+
 # Project template.
 
 Template generated with maven archetype using:
