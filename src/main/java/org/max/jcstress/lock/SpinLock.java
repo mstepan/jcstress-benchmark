@@ -3,6 +3,9 @@ package org.max.jcstress.lock;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 
+/**
+ * Pure spin lock implementation, only busy spinning wait is used, no blocking/waiting.
+ */
 public final class SpinLock {
 
     private static final VarHandle VH_BUSY;
